@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var buff = fs.readFileSync('index.html');
+var buf = fs.readFileSync('index.html');
 
 var text = buf.toString(buff);
 
