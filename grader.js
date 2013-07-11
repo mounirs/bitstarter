@@ -24,7 +24,7 @@ References:
 var fs = require('fs');
 var program = require('commander');
 var cheerio = require('cheerio');
-var rest    = require('../lib/restler');
+var rest    = require('./lib/restler');
 
 
 var HTMLFILE_DEFAULT = "index.html";
